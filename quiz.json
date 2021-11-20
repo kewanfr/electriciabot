@@ -1,0 +1,275 @@
+{
+  "0": {
+    "quest": "",
+    "a": "",
+    "b": "",
+    "c": "",
+    "rep": ""
+  },
+  "1": {
+    "quest": "Quelle est la piece la plus importante dans un jeu d'échec ?",
+    "a": "La dame",
+    "b": "Le roi",
+    "c": "Le cavalier",
+    "rep": "b"
+  },
+  "2": {
+    "quest": "Quelle pièce peut se déplacer uniquement en diagonale dans un jeu d'échec ?",
+    "a": "La dame",
+    "b": "Le cavalier",
+    "c": "Le fou",
+    "rep": "c"
+  },
+  "3": {
+    "quest": "Quelle est la voiture de retour vers le futur ?",
+    "a": "DeLorean",
+    "b": "Ford Fiesta",
+    "c": "Mustang",
+    "rep": "a"
+  },
+  "4": {
+    "quest": "Combien y a-t-il de signes astrologiques chinois ?",
+    "a": "11",
+    "b": "12",
+    "c": "13",
+    "rep": "b"
+  },
+  "5": {
+    "quest": "Quelle ville est surnommé « big Apple » aux Etats-Unis ?",
+    "a": "New York",
+    "b": "San Francisco",
+    "c": "Washington",
+    "rep": "a"
+  },
+  "6": {
+    "quest": "Quelle pièce est de Shakespeare ?",
+    "a": "Les misérables",
+    "b": "Roméo et Juliette",
+    "c": "Phèdre",
+    "rep": "b"
+  },
+  "7": {
+    "quest": "Qui a écrit les misérables ?",
+    "a": "Shakespeare",
+    "b": "Molière",
+    "c": "Hugo",
+    "rep": "c"
+  },
+  "8": {
+    "quest": "Qui a écrit \"Vingt mille lieues sous les mers\" ?",
+    "a": "Jules Verne",
+    "b": "H. G. Wells",
+    "c": "Victor Hugo",
+    "rep": "a"
+  },
+  "9": {
+    "quest": "De quel handicap souffrait le compositeur Beethoven ?",
+    "a": "Muet",
+    "b": "Sourd",
+    "c": "Aveugle",
+    "rep": "b"
+  },
+  "10": {
+    "quest": "Qui dirigeait l'URSS entre 1920 et 1953 ?",
+    "a": "Staline",
+    "b": "Trotski",
+    "c": "Poutine",
+    "rep": "a"
+  },
+  "11": {
+    "quest": "Qui dirigeait l'Allemagne à partir de 1933 ?",
+    "a": "Merkel",
+    "b": "Ludendorff",
+    "c": "Hitler",
+    "rep": "c"
+  },
+  "12": {
+    "quest": "Quels sont les peuples visés par l'Allemagne d'Hitler ?",
+    "a": "Les Juifs et les Tsiganes",
+    "b": "Les Juifs et les Musulmans",
+    "c": "Les Juifs et les Français",
+    "rep": "a"
+  },
+  "13": {
+    "quest": "Qui sont la force de l'Axe à la fin de la seconde guerre mondiale ?",
+    "a": "L'Italie, l'Allemagne et la Russie",
+    "b": "L'Italie, l'Allemagne et le Japon",
+    "c": "La France, le Royaume-Unis et les Etats-Unis",
+    "rep": "b"
+  },
+  "14": {
+    "quest": "Qui sont les alliés à la fin de la seconde guerre mondiale ?",
+    "a": "L'Italie, l'Allemagne et le Japon",
+    "b": "La France, Le Royaume-Unis et le Japon",
+    "c": "La France, le Royaume-Unis et les Etats-Unis",
+    "rep": "c"
+  },
+  "15": {
+    "quest": "Quand est signée l'armistice de 1945 ?",
+    "a": "Le 8 mai 1945",
+    "b": "Le 11 novembre 1945",
+    "c": "Le 24 décembre 1945",
+    "rep": "a"
+  },
+  "16": {
+    "quest": "1+2+3+4 ?",
+    "a": "8",
+    "b": "7",
+    "c": "10",
+    "rep": "c"
+  },
+  "17": {
+    "quest": "Quelle est la capitale de la Norvège ?",
+    "a": "Oslo",
+    "b": "Copenhague",
+    "c": "stockholm",
+    "rep": "a"
+  },
+  "18": {
+    "quest": "Quelle est la capitale de l'Australie ?",
+    "a": "Sydney",
+    "b": "Canberra",
+    "c": "Melbourne",
+    "rep": "b"
+  },
+  "19": {
+    "quest": "Quelle dieux fait parti de la mythologie Romaine ?",
+    "a": "Diane",
+    "b": "Artémis",
+    "c": "Aphrodite",
+    "rep": "a"
+  },
+  "20": {
+    "quest": "Quelle dieux fait parti de la mythologie Grecque ?",
+    "a": "Cérès",
+    "b": "Hestia",
+    "c": "Vesta",
+    "rep": "b"
+  },
+  "21": {
+    "quest": "Quel est le plus long fleuve du monde ?",
+    "a": "l'Amazone",
+    "b": "Le Nil",
+    "c": "Le Mississippi",
+    "rep": "a"
+  },
+  "22": {
+    "quest": "Quel est le plus haut sommet du monde ?",
+    "a": "Le Mont Blanc",
+    "b": "Le Kilimandjaro",
+    "c": "L'Everest",
+    "rep": "c"
+  },
+  "23": {
+    "quest": "Quel pays ne fait pas partie de l'UE ?",
+    "a": "La Bosnie-Herzégovine",
+    "b": "La Macédoine",
+    "c": "La Slovénie",
+    "rep": "a"
+  },
+  "24": {
+    "quest": "Combien y a-t-il de secondes dans une année ?",
+    "a": "31 536",
+    "b": "31 536 000",
+    "c": "31 536 000 000",
+    "rep": "b"
+  },
+  "25": {
+    "quest": "Combien le corps humain d'un adulte comporte-t-il d'os ?",
+    "a": "212",
+    "b": "190",
+    "c": "206",
+    "rep": "c"
+  },
+  "26": {
+    "quest": "Quel est le jour de la fête de l'indépendance aux États-Unis ?",
+    "a": "Le 6 juillet",
+    "b": "Le 4 juillet",
+    "c": "Le 12 juillet",
+    "rep": "b"
+  },
+  "27": {
+    "quest": "En quelle année Louis XVI a-t-il été guillotiné ?",
+    "a": "1789",
+    "b": "1796",
+    "c": "1793",
+    "rep": "c"
+  },
+  "28": {
+    "quest": "Quelle est la capitale du Portugal?",
+    "a": "Lisbonne",
+    "b": "Porte",
+    "c": "Braga",
+    "rep": "a"
+  },
+  "29": {
+    "quest": "Quelle est la signification de \"hacker\" ?",
+    "a": "S'introduire par malveillance dans un système informatique ?",
+    "b": "Détourner un objet technique de sa fonction initiale",
+    "c": "Voler des données personnelles sur un ordinateur",
+    "rep": "b"
+  },
+  "30": {
+    "quest": "Que doit-on dire ?",
+    "a": "Pain au chocolat",
+    "b": "Chocolatine",
+    "c": "Pain au chocolatine.",
+    "rep": "d"
+  },
+  "31": {
+    "quest": "Qui a fondé l'Académie Française ?",
+    "a": "Richelieu",
+    "b": "Jules Ferry",
+    "c": "Voltaire",
+    "rep": "a"
+  },
+  "32": {
+    "quest": "Qui était le père de Charlemagne ?",
+    "a": "Henri de Bourbon",
+    "b": "Charles Martel",
+    "c": "Pépin le Bref",
+    "rep": "c"
+  },
+  "33": {
+    "quest": "Quel président américain a aboli l'esclavage ?",
+    "a": "Franklin Delano Roosevelt",
+    "b": "George Washington",
+    "c": "Abraham Lincoln",
+    "rep": "c"
+  },
+  "34": {
+    "quest": "De quand date l'abolition de la peine de mort en France ?",
+    "a": "1977",
+    "b": "1981",
+    "c": "1974",
+    "rep": "b"
+  },
+  "35": {
+    "quest": "Qui a abolit la peine de mort en France ?",
+    "a": "François Mitterand",
+    "b": "Robert Badinter",
+    "c": "Valéry Giscard d'Estaing",
+    "rep": "b"
+  },
+  "36": {
+    "quest": "Qui est le dernier roi de France ?",
+    "a": "Louis XVI",
+    "b": "Louis XIV",
+    "c": "Louis-Philippe Ier",
+    "rep": "c"
+  },
+  "37": {
+    "quest": "Qui est le célèbre acteur qu'on retrouve dans Rabbi Jacob et la Grande Vadrouille ?",
+    "a": "Louis de Funès",
+    "b": "Gainsbourg",
+    "c": "Bourville",
+    "rep": "a"
+  },
+  "38": {
+    "quest": "En quelle année a été assassiné John Fitzgerald Kennedy ?",
+    "a": "1963",
+    "b": "1967",
+    "c": "1958",
+    "rep": "a"
+  }
+}
