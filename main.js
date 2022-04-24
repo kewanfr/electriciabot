@@ -5,9 +5,12 @@ const fs = require("fs");
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 
-const defdb = require("data/db.json");
-let defdata = JSON.stringify(defdb);
-fs.writeFileSync('data/newdb.json', defdata);
+// const defdb = require("data/db.json");
+const { log } = require("console");
+let dats = fs.readFileSync('./data');
+console.log(dats);
+// let defdata = JSON.stringify(defdb);
+// fs.writeFileSync('data/newdb.json', defdata);
 
 const adapter = new FileSync('data/newdb.json');
 client.db = low(adapter);
