@@ -5,14 +5,14 @@ const fs = require("fs");
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 
-// const defdb = require("data/db.json");
-const { log } = require("console");
+const defdb = require("./data/db.json");
+let defdata = JSON.stringify(defdb);
+fs.writeFileSync('./data/newdb.json', defdata);
+console.log('data form db.json transfered to newdb.json');
 let dats = fs.readdirSync('./data');
 console.log(dats);
-// let defdata = JSON.stringify(defdb);
-// fs.writeFileSync('data/newdb.json', defdata);
 
-const adapter = new FileSync('data/newdb.json');
+const adapter = new FileSync('./data/newdb.json');
 client.db = low(adapter);
 
 client.db.defaults({ guilds: {}, users: {}, config: {}, blacklist: []}).write()
