@@ -18,6 +18,21 @@ module.exports = async (client) => {
   // console.log(times+`\x1b[32m%s\x1b[0m`,'[OK]','\x1b[0m','Chargement terminé');
   // console.log(times+`\x1b[32m%s\x1b[0m`,'[OK]','\x1b[0m','Prêt et connecté');
 
+  var users = await client.db.get(`guilds.722322784465977384.users`).value();
+  // console.log(user.username);
+  for (const u in users) {
+    const user = users[u];
+    // console.log(u);
+    // console.log(user.username);
+    // console.log(user.id);
+    // console.log(client.users.cache.get(u));
+    if(!client.users.cache.get(u)){
+      client.db.unset(`guilds.722322784465977384.users.${u}`).write();
+      console.log(`${user.username} (${u}) removed from db`);
+    }
+
+  }
+
   const activities = [
       `Electricia ${client.config.bot.bversion}`,
       `${client.config.PREFIX}help | Electricia v${client.config.bot.version}`
