@@ -6,7 +6,7 @@ exports.run = (client, message, args, userInfo) => {
   let sortable = sorted.sort((a,b) => {return b.experience - a.experience;});
 
   let guildUsers = client.db.get(`guilds.${message.guild.id}.users`).value();
-  console.log(sortable[0]);
+  // console.log(sortable[0]);
   let embed = new MessageEmbed()
     .setTitle(`🏆 Classement Experience **${message.guild.name}**`)
     .setColor("RED")

@@ -73,7 +73,7 @@ module.exports.run = (client, message, args) =>  {
       }
       break;
   }
-  console.log(computerChoice);
+  // console.log(computerChoice);
   if(playerChoice !== false){
     let embed = new MessageEmbed()
       .setColor("#d54e12")

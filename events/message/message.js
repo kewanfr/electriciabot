@@ -26,7 +26,8 @@ module.exports = async (client, message) => {
       }).write();
     }
 
-    if(!client.db.get(`guilds.${message.guild.id}.users.${message.author.id}`).value()){
+    if(!(await client.db.get(`guilds.${message.guild.id}.users.${message.author.id}`).value())){
+      console.log("creation user " + message.member.user.username);
       client.db.set(`guilds.${message.guild.id}.users.${message.author.id}`, {
         id: message.member.user.id,
         username: message.member.user.username,
@@ -101,7 +102,7 @@ module.exports = async (client, message) => {
 
       if (user.level < Level || user.level > Level) {
         let balToAdd = 10 + Level;
-        console.log(balToAdd)
+        // console.log(balToAdd)
         //client.db.get(`guilds.${message.guild.id}.settings.channels.exp`).value()
         client.db.set(`guilds.${message.guild.id}.users.${message.member.id}.level`, Level).write();
         client.db.set(`guilds.${message.guild.id}.users.${message.member.id}.balance`, user.balance + balToAdd).write();

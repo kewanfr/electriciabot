@@ -34,7 +34,7 @@ exports.run = (client, message, args) => {
             catcommands.push(cat.help.name);
           }
         });
-        console.log(catcommands)
+        // console.log(catcommands)
         embed.addField(`${categorie.name} ${categorie.emoji}`, `${catcommands.map((cmd) => `${cmd}`).join(", ")}`);
       }
     }
