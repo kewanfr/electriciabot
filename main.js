@@ -5,7 +5,11 @@ const fs = require("fs");
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 
-const adapter = new FileSync('data/db.json');
+const defdb = require("data/db.json");
+let defdata = JSON.stringify(defdb);
+fs.writeFileSync('data/newdb.json', defdata);
+
+const adapter = new FileSync('data/newdb.json');
 client.db = low(adapter);
 
 client.db.defaults({ guilds: {}, users: {}, config: {}, blacklist: []}).write()
