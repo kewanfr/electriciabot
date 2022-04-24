@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 
-exports.run = (client, message, args) => {
+exports.run = async (client, message, args) => {
   if (message.author.id !== "497057985688895489") {
     var error_permissions = new MessageEmbed()
       .setDescription(":x: Vous ne disposez pas les permissions nécessaires pour effectuer cette commande.")
