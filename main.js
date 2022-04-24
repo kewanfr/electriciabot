@@ -7,7 +7,7 @@ const FileSync = require('lowdb/adapters/FileSync');
 
 // const defdb = require("data/db.json");
 const { log } = require("console");
-let dats = fs.readFileSync('./data');
+let dats = fs.readdirSync('./data');
 console.log(dats);
 // let defdata = JSON.stringify(defdb);
 // fs.writeFileSync('data/newdb.json', defdata);
